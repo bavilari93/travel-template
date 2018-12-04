@@ -1,2 +1,3 @@
 # travel-template
-react app template 
+
+sass , responsive and nice ui
