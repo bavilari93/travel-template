@@ -28,29 +28,6 @@ html,
         cursor:pointer;
     }
 }
-
-#home {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: black;
-    margin-top:3.5rem;
-
-    img {
-        flex: 1;
-        width: 250px;
-        max-width: auto;
-        max-height: 250px;
-    }
-}
-
-.footer {
-    img {
-        height: auto;
-        width: 10rem;
-    }
-}
-
 .selection {
     display: none;
     width:100%; 
@@ -70,3 +47,27 @@ html,
     }
     }
 }
+
+#home {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: black;
+    margin-top:3.5rem;
+
+    img {
+        flex: 1;
+        width: 250px;
+        max-width: auto;
+        max-height: 250px;
+    }
+}
+
+
+.footer {
+    img {
+        height: auto;
+        width: 10rem;
+    }
+}
+

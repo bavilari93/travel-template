@@ -19,11 +19,9 @@ $(".upper-icon").on("click",()=>{
 	var section = document.querySelector('.selection');
 	
 	if (section.style.display=='inline'){
-		console.log('test');
 		section.style.display='none';
 		 $("html, body").animate({ scrollTop: 0 }, "slow");	
 	}else{
-		console.log("is off");
 		section.style.display='inline';
 		 
 	}
