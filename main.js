@@ -17,7 +17,15 @@ $(()=>{
 $(".upper-icon").on("click",()=>{
 	
 	var section = document.querySelector('.selection');
-	section.style.display='inline'
+	
+	if (section.style.display=='inline'){
+		console.log('test');
+		section.style.display='none';	
+	}else{
+		console.log("is off");
+		section.style.display='inline';
+		 
+	}
 	
 })
 
