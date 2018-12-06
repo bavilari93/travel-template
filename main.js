@@ -17,12 +17,14 @@ $(() => {
     $(".upper-icon").on("click", () => {
 
         var section = document.querySelector('.selection');
+        var scroll =  $("html, body").animate({ scrollTop: 0 }, "slow");
 
         if (section.style.display == 'inline') {
             section.style.display = 'none';
-            $("html, body").animate({ scrollTop: 0 }, "slow");
+            scroll;
         } else {
             section.style.display = 'inline';
+             scroll;
 
         }
 
